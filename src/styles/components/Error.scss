@@ -1,0 +1,11 @@
+.error {
+	background-color: var(--light-red);
+	border-radius: 5px;
+	padding: .2rem .8rem;
+	margin: -0.4rem 0 1rem;
+	font-size: .9rem;
+
+	span {
+		font-size: 1.2rem;
+	}
+}
