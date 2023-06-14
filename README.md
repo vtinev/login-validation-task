@@ -10,7 +10,7 @@
 _Video:_ <br>
 ![image](./fixed_connected_fields.gif)
 
-- Use the `data/myServices.json` to render all of the Services and their respective fields. 
+- Use `data/myServices.json` to render all of the Services and their respective fields. 
 - The display field should show the value of the input its connected to.
 - You should be able to toggle on and off the additional service.
 - Finish the toggle styles
