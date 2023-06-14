@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+### Render fields based on a provided JSON. Connect some of the values.
+_Video:_ <br>
+![image](../fixed_connected_fields.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Use `data/myServices.json` to render all of the Services and their respective fields. 
+- The display field should show the value of the input its connected to.
+- You should be able to toggle on and off the additional service.
+- Finish the toggle styles
+- _Optional:_ Make it impossible for the user to add negative values.
 
 ## Available Scripts
 
