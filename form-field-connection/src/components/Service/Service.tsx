@@ -33,8 +33,8 @@ const Service = ({name, toggle, fields, inputValues, handleInputChange}: IServic
 							</div>
 						) : (
 							<Field
-								label={field.label}
 								id={field.placeholder}
+								label={field.label}
 								type={field.type}
 								placeholder={field.placeholder}
 								onChange={(ev) => handleFieldChange(field.id, ev.target.value)}
