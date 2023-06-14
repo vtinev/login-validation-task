@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Main Service",
+    "toggle": {
+      "visible": false,
+      "defaultEnabled": false
+    },
+		"fields": [
+			{
+				"label": "Name your server",
+				"type": "text",
+				"id": "main_service_name-field",
+				"placeholder": "Enter a name",
+				"connection": {
+          "target": ""
+        }
+			},
+			{
+        "label": "Add capacity (TB)",
+        "type": "number",
+        "id": "main_service_capacity-field",
+        "placeholder": "Enter capacity (TB)",
+        "connection": {
+          "target": ""
+        }
+      }
+		]
+	},
+	{
+    "name": "Extra Service (optional)",
+    "toggle": {
+      "visible": true,
+      "defaultEnabled": false
+    },
+    "fields": [
+      {
+        "label": "Capacity",
+        "type": "display",
+        "id": "extra_service_display-field",
+        "placeholder": "0",
+        "connection": {
+          "target": "main_service_capacity-field"
+        }
+      }
+    ]
+  }
+]

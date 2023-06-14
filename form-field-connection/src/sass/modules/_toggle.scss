@@ -1,0 +1,30 @@
+.toggle {
+	font-size: 0;
+	border-radius: 66px;
+	background-color: transparent;
+	height: 20px;
+	width: 50px;
+	border: none;
+	background-color: #747474;
+	cursor: pointer;
+	margin-bottom: .4rem;
+	transition: background-color .2s;
+
+	&:after {
+		content: "";
+		width: 20px;
+		height: 20px;
+		background-color: #fff;
+		border-radius: 50%;
+		display: block;
+		transition: transform .2s;
+	}
+
+	&.enabled {
+		background-color: rgb(61, 184, 157);
+
+		&:after {
+			transform: translateX(30px);
+		}
+	}
+}
