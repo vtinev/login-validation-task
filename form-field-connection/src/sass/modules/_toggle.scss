@@ -22,9 +22,5 @@
 
 	&.enabled {
 		background-color: rgb(61, 184, 157);
-
-		&:after {
-			transform: translateX(30px);
-		}
 	}
 }

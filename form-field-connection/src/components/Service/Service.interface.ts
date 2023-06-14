@@ -4,13 +4,10 @@ export type IService = {
 	name: string;
 	toggle: ServiceToggle;
 	fields: ServiceField[];
-	inputValues: any;
-	handleInputChange: (fieldId: string, value: string) => void;
 }
 
-interface ServiceField extends FormField {
-	connection: FieldConnection;
-}
+// interface ServiceField here
+// Use extend
 
 export type ServiceToggle = {
 	enabled?: boolean;
